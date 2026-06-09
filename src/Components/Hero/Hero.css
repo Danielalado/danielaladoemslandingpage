@@ -1,0 +1,37 @@
+#hero{
+    background-color: #FFE9D6;
+    padding: 2rem 5rem;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FF7A00;
+}
+
+.hero-left{
+    font-size: 2rem;
+    width: 40rem;
+}
+
+.hero-right img{
+width: 45rem;
+}
+
+.hero-bottom{
+    display: flex;
+    justify-content: center;
+    /* background: #FF7A00; */
+    /* width: 5rem; */
+}
+
+.hero-bottom .shopNow{
+    background-color: #FF7A00;
+    color: white;
+    padding: 0.7rem 2.5rem;
+    border-radius: 0.3rem;
+    font-family: 1.3rem;
+}
+
+
