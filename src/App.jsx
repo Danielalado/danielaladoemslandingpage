@@ -1,10 +1,9 @@
 // import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from './assets/vite.svg'
-// import heroImg from './assets/hero.png'
-// import './App.css'
+
+import About from './Components/About/About'
+import Footer from './Components/Footer/Footer'
+import Gadgets from './Components/Gadgets/Gadget'
 import Hero from './Components/Hero/Hero'
-import HeroDescription from './Components/HeroDescription/HeroDescription'
 import Navbar from './Components/Navbar/Navbar'
 
 export default function App() {
@@ -14,7 +13,9 @@ export default function App() {
       <div>
       <Navbar />
       <Hero />
-      <HeroDescription />
+      <About />
+      <Gadgets />
+      <Footer />
      </div>
     </>
   )

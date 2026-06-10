@@ -8,14 +8,15 @@ export default function Navbar () {
         <section id="navbar">
             {/* navbar-left starts from here */}
             <div className="navbar-logo">
-                <img src={Ems} alt="" />
+                <a href="/"><img src={Ems} alt="" /></a>
+                
             </div>
 
             {/* navbar-middle starts from here */}
             <div className="navbar-middle">
-                <a href="">Intro</a>
-                <a href="">About</a>
-                <a href="">Shop</a>
+                <a href="hero">Intro</a>
+                <a href="#about">About</a>
+                <a href="#gadgets">Shop</a>
             </div>
 
             {/* navbar-right starts */}

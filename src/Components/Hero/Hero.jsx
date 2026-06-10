@@ -21,7 +21,7 @@ export default function Hero () {
            
 
             <div className="hero-bottom">
-                <p className="shopNow">SHOP NOW</p>
+                <a href="#gadgets"><p className="shopNow">SHOP NOW</p></a>
             </div>
 
         </section>

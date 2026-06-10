@@ -1,5 +1,5 @@
 #navbar{
-    /* background-color: #FFE9D6; */
+    background-color: #FFE9D6;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -8,6 +8,7 @@
     /* margin: 1rem 9rem; */
     padding: 1rem 5rem;
    z-index: 5;
+   /* backdrop-filter: blur(1rem); */
 }
 
 
@@ -32,7 +33,7 @@
  /* navbar-right starts here  */
  .navbar-right{
     display: flex;
-    background-color: #FF7A00;
+    background-color: #FF9A3D;
     align-items: center;
     height: 2.5rem;
     padding: 0.7rem 1rem 0.7rem 0.2rem;

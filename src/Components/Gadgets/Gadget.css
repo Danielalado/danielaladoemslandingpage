@@ -1,0 +1,47 @@
+#gadgets{
+    background-color: white;
+    padding: 2rem 5rem;
+}
+
+.gadgets-title{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.gadgets{
+justify-content: center;
+display: flex;
+flex-wrap: wrap;
+/* display: grid; */
+/* grid-template-columns: repeat(3, 1fr); */
+gap: 6rem;
+margin-top: 3rem;
+
+}
+
+.gadget{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* It will be used to display the price  */
+/* .gadget img:hover{
+    cursor: pointer;
+} */
+
+.gadget-name{
+    margin: 0.5rem 0;
+}
+
+.add-cart{
+    background-color: #FF9A3D;
+    margin: 0.5rem 0;
+    padding: 0.5rem 6.5rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    color: black;
+    
+}

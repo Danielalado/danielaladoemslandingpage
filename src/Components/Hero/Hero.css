@@ -27,11 +27,12 @@ width: 45rem;
 }
 
 .hero-bottom .shopNow{
-    background-color: #FF7A00;
+    background-color: #FF9A3D;
     color: white;
     padding: 0.7rem 2.5rem;
     border-radius: 0.3rem;
-    font-family: 1.3rem;
+    font-size: 1.3rem;
+    cursor: pointer;
 }
 
 
