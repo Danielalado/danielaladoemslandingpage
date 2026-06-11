@@ -14,7 +14,7 @@ export default function Navbar () {
 
             {/* navbar-middle starts from here */}
             <div className="navbar-middle">
-                <a href="hero">Intro</a>
+                <a href="#hero">Intro</a>
                 <a href="#about">About</a>
                 <a href="#gadgets">Shop</a>
             </div>
