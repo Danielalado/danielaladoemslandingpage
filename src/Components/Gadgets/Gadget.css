@@ -45,3 +45,128 @@ margin-top: 3rem;
     color: black;
     
 }
+
+
+
+
+
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 480px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+
+    #gadgets{
+        padding: 1.5rem 1.2rem;
+    }
+
+    .gadgets-title{
+        margin-top: 1rem;
+    }
+
+    .gadgets{
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+
+    .add-cart{
+        padding: 0.5rem 3rem;
+    }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+
+    #gadgets{
+        padding: 2rem 2rem;
+    }
+
+    .gadgets{
+        gap: 3rem;
+    }
+
+    .add-cart{
+        padding: 0.5rem 4.5rem;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    #gadgets{
+        padding: 2rem 3rem;
+    }
+
+    .gadgets{
+        gap: 4rem;
+    }
+
+    .add-cart{
+        padding: 0.5rem 5rem;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    #gadgets{
+        padding: 2rem 4rem;
+    }
+
+    .gadgets{
+        gap: 5rem;
+    }
+
+    .add-cart{
+        padding: 0.5rem 5.5rem;
+    }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    #gadgets{
+        padding: 2rem 4.5rem;
+    }
+
+    .gadgets{
+        gap: 5.5rem;
+    }
+
+    .add-cart{
+        padding: 0.5rem 6rem;
+    }
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+
+    #gadgets{
+        padding: 2rem 5rem;
+    }
+
+    .gadgets{
+        gap: 6rem;
+    }
+
+    .add-cart{
+        padding: 0.5rem 6.5rem;
+    }
+}

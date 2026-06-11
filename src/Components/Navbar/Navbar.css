@@ -51,3 +51,146 @@
     font-size: 1.5rem;
  }
  /* navbar-right endss here */
+
+
+
+
+
+
+ /* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 480px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+
+    #navbar{
+        padding: 1rem 1.2rem;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .navbar-logo img{
+      /* display: none; */
+      width: 3.5rem;
+    }
+
+    .navbar-middle a{
+        margin-left: 0.8rem;
+        font-size: 1rem;
+    }
+
+    .navbar-right{
+        height: 2rem;
+        padding: 0.5rem 0.8rem 0.5rem 0.2rem;
+        border-radius: 1rem;
+    }
+
+    .navbar-right img{
+        height: 1.5rem;
+        width: 2.5rem;
+    }
+
+    .cartCount{
+        font-size: 1.2rem;
+    }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+
+    #navbar{
+        padding: 1rem 2rem;
+    }
+
+    .navbar-logo img{
+      /* display: none; */
+        width: 4rem;
+    }
+
+    .navbar-middle a{
+        margin-left: 1.2rem;
+        font-size: 1.2rem;
+    }
+
+    .navbar-right{
+        height: 2.2rem;
+        padding: 0.6rem 0.9rem 0.6rem 0.2rem;
+    }
+
+    .navbar-right img{
+        height: 1.7rem;
+        width: 2.7rem;
+    }
+
+    .cartCount{
+        font-size: 1.3rem;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    #navbar{
+        padding: 1rem 3rem;
+    }
+
+    .navbar-logo img{
+      /* display: none; */
+        width: 4.5rem;
+    }
+
+    .navbar-middle a{
+        margin-left: 1.5rem;
+        font-size: 1.3rem;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    #navbar{
+        padding: 0.8rem 2.5rem;
+    }
+
+    .navbar-middle a{
+        margin-left: 1.2rem;
+        font-size: 1.2rem;
+    }
+
+    .navbar-right{
+        height: 2.2rem;
+    }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    #navbar{
+        padding: 1rem 4rem;
+    }
+
+    .navbar-middle a{
+        font-size: 1.4rem;
+    }
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+
+    /* no changes needed unless you want scaling */
+}
