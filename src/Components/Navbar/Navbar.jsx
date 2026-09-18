@@ -1,5 +1,6 @@
 import Ems from "../../assets/Images/EMS.svg"
 import Cart from "../../assets/Images/cart.svg"
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 
@@ -21,8 +22,14 @@ export default function Navbar () {
 
             {/* navbar-right starts */}
             <div className="navbar-right">
-                <img src={Cart} alt="" />
-                <p className="cartCount">0</p>
+                <Link to="/cart">
+                    <div className="navbar_right_items">
+                        <img src={Cart} alt="" />
+                        <p className="cartCount">0</p>
+                    </div>
+                    
+                </Link>
+               
             </div>
         </section>
     )

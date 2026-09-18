@@ -7,13 +7,13 @@ import "./Footer.css"
 export default function Footer () {
     return(
         <section id="footer">
-            <div className="footer-left">
-                <img src={EMSlogo} alt="" />
-            </div>
+                <div className="footer-left">
+                    <img src={EMSlogo} alt="" />
+                </div>
 
-            <div className="footer-right">
-                <p>Design and Crafted by Daniel Alado with love and passion.</p>
-            </div>
+                <div className="footer-right">
+                    <p>Design and Crafted by Daniel Alado &copy; 2026 with love and passion. All rights reserved</p>
+                </div>
 
         </section>
     )

@@ -41,6 +41,11 @@
     cursor: pointer;
  }
 
+ .navbar_right_items{
+    display: flex;
+    align-items: center;
+ }
+
  .navbar-right img{
     height: 1.9rem;
     width: 3rem;
