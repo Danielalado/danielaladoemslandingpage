@@ -6,7 +6,7 @@
     height: 100vh;
 }
 .cart-items{
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 .cart-items-title {
@@ -125,9 +125,9 @@
         /* height: 100vh; */
     }
 
-    .cart-items{
+    /* .cart-items{
         margin-bottom: 3rem;
-    }
+    } */
 
     .cart-items-title{
         margin-top: 3rem;
